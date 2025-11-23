@@ -16,39 +16,33 @@
     <header class="header-wrapper">
       <!-- Navbar that includes "Pens, Projects, Posts, Collections, and Spark with a down chevron (does not need to actually dropdown). -->
       <nav class="nav-wrapper">
-        <section class="nav-img-section">
-          <div class="nav-img">
-            <img src="../assets/logo-text-white.png" alt="Logo" />
-          </div>
-        </section>
+        <div class="nav-left">
+          <img src="./assets/logo-text-white.png" alt="CodePen Logo" />
+        </div>
 
-        <section class="nav-menu-section">
-          <div class="nav-menu-text">
-            <h2>EXPLORE</h2>
-          </div>
-          <div class="nav-menu-links">
-            <ul>
-              <li><a href="./pages/pens.html">Pens</a></li>
-              <li><a href="./pages/projects.html">Projects</a></li>
-              <li><a href="./pages/postshtml">Post</a></li>
-              <li><a href="./pages/collections.html">Collection</a></li>
-              <li><a href="./pages/spark.html">Spark</a></li>
-            </ul>
-          </div>
-        </section>
+        <div class="nav-center">
+          <h2>EXPLORE</h2>
+          <ul>
+            <li><a href="./pages/pens.html">Pens</a></li>
+            <li><a href="./pages/projects.html">Projects</a></li>
+            <li><a href="./pages/post.html">Posts</a></li>
+            <li><a href="./pages/collections.html">Collections</a></li>
+            <li>
+              <a href="./pages/spark.html"
+                >Spark <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
 
-        <section class="nav-user-section">
-          <div class="nav-create-btn">
-            <button class="nav-create">Create</button>
-          </div>
-          <div class="nav-search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <div class="nav-user-bottons">
-            <button class="nav-sign-up">Sign Up</button>
-            <button class="nav-log-in">Log In</button>
-          </div>
-        </section>
+        <div class="nav-right">
+          <button class="create-btn">
+            Create <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <button class="signup-btn">Sign Up</button>
+          <button class="login-btn">Log In</button>
+        </div>
       </nav>
     </header>
 
@@ -67,6 +61,7 @@
           <p>
             CodePen is a <strong>social development environment</strong> for
             front-end designers and developers.
+            <span class="emoji">👋</span>
           </p>
           <p>
             Build and deploy a website, show off your work, build test cases,
