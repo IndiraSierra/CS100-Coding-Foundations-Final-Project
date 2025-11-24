@@ -1,0 +1,97 @@
+.header-wrapper {
+    background-color: #020000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.header-wrapper > .nav-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ .header-wrapper > .nav-wrapper > .nav-left > img {
+    height: 50px;
+    width: 250px;
+    margin: 0px 0px 0px 15px;
+}
+
+
+.header-wrapper > .nav-wrapper > .nav-center  {
+    display: block;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+
+.header-wrapper > .nav-wrapper > .nav-center ul  {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    
+}
+.header-wrapper > .nav-wrapper > .nav-center ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 750;
+    font-size: 18px;
+    text-decoration: solid;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.header-wrapper > .nav-wrapper > .nav-center h2 {
+    margin: 0;
+    padding: inherit;
+    font-size: 15px;
+    color: #eec751;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.header-wrapper > .nav-wrapper > .nav-right {
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 0px;
+    padding-right: 0px;
+}   
+
+.header-wrapper > .nav-wrapper > .nav-right button {
+    background-color: #36383f;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 2px;
+   background-origin: padding-box;
+
+}
+.header-wrapper > .nav-wrapper > .nav-right button i {
+    margin-left: 5px;
+    color: #4acd78;
+    display: inline-block;
+}
+
+.header-wrapper > .nav-wrapper > .nav-right i {
+    color: #7b7e8b;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+}
