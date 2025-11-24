@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="./styles/common-styles.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
   </head>
 
   <body>
@@ -17,7 +17,7 @@
       <!-- Navbar that includes "Pens, Projects, Posts, Collections, and Spark with a down chevron (does not need to actually dropdown). -->
       <nav class="nav-wrapper">
         <div class="nav-left">
-          <img src="./assets/logo-text-white.png" alt="CodePen Logo" />
+          <img src="../assets/logo-text-white.png" alt="CodePen Logo" />
         </div>
 
         <div class="nav-center">
@@ -39,6 +39,9 @@
           <button class="create-btn">
             Create <i class="fa-solid fa-chevron-down"></i>
           </button>
+          <!-- Search Icon <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>-->
           <i class="fa-solid fa-magnifying-glass"></i>
           <button class="signup-btn">Sign Up</button>
           <button class="login-btn">Log In</button>
@@ -47,31 +50,33 @@
     </header>
 
     <main>
-      <section class="main-section-img">
-        <div>
-          <p class="img-title">This is CodePen Projects</p>
-        </div>
-        <div class="main-img">
-          <img src="../assets/screenshot.png" alt="CodePen" />
-        </div>
-      </section>
+      <section class="hero">
+        <section class="main-section-img">
+          <div>
+            <p class="img-title">This is CodePen Projects</p>
+          </div>
+          <div class="main-img">
+            <img src="../assets/screenshot.png" alt="CodePen" />
+          </div>
+        </section>
 
-      <section class="main-section-text">
-        <div class="section-text">
-          <p>
-            CodePen is a <strong>social development environment</strong> for
-            front-end designers and developers.
-            <span class="emoji">👋</span>
-          </p>
-          <p>
-            Build and deploy a website, show off your work, build test cases,
-            and find inspiration.
-          </p>
-        </div>
-        <div class="main-section-buttons">
-          <button class="bt-sign-up-for-free">Sign Up For Free</button>
-          <button class="bt-learn-more">Learn More</button>
-        </div>
+        <section class="main-section-text">
+          <div class="section-text">
+            <p>
+              CodePen is a <strong>social development environment</strong> for
+              front-end designers and developers.
+              <span class="emoji">👋</span>
+            </p>
+            <p>
+              Build and deploy a website, show off your work, build test cases,
+              and find inspiration.
+            </p>
+          </div>
+          <div class="main-section-buttons">
+            <button class="bt-sign-up-for-free">Sign Up For Free</button>
+            <button class="bt-learn-more">Learn More</button>
+          </div>
+        </section>
       </section>
 
       <section class="inline-section-buttons">
