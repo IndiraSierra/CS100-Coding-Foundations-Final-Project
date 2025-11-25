@@ -1,6 +1,6 @@
 .header-wrapper {
     background-color: #020000;
-    height: 80px;
+    height: 90px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -25,11 +25,9 @@
 
 
 .header-wrapper > .nav-wrapper > .nav-center  {
-    display: block;
-    align-items: center;
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 0px auto;
 }
 
 
@@ -40,48 +38,65 @@
     justify-content: left;
     margin: 0;
     padding: 0;
-    
 }
 .header-wrapper > .nav-wrapper > .nav-center ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 750;
-    font-size: 18px;
-    text-decoration: solid;
-    text-transform: capitalize;
-    cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 28px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.header-wrapper > .nav-wrapper > .nav-center ul li a:hover {
+    color: #eec751;
+}
+
+.header-wrapper > .nav-wrapper > .nav-center ul li:nth-child(5) a {
+    color: #8a8a8a;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.header-wrapper > .nav-wrapper > .nav-center ul li:nth-child(5) a i {
+    color: white;
 }
 
 .header-wrapper > .nav-wrapper > .nav-center h2 {
     margin: 0;
     padding: inherit;
-    font-size: 15px;
+    font-size: 20px;
     color: #eec751;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 500;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .header-wrapper > .nav-wrapper > .nav-right {
-    display: flex;
-    align-items: right;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 15px;
-    margin-right: 0px;
-    padding-right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
 }   
 
 .header-wrapper > .nav-wrapper > .nav-right button {
     background-color: #36383f;
     border: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: inherit;
     cursor: pointer;
     padding: 10px 15px;
-    border-radius: 2px;
-   background-origin: padding-box;
-
+    border-radius: 3px;
+    background-origin: padding-box;
+    height: 60px;
+    width: auto;
+    padding: 0px 30px 0px 30px;
 }
 .header-wrapper > .nav-wrapper > .nav-right button i {
     margin-left: 5px;
@@ -93,5 +108,4 @@
     color: #7b7e8b;
     cursor: pointer;
     font-size: 30px;
-    align-items: center;
-}
+   }
