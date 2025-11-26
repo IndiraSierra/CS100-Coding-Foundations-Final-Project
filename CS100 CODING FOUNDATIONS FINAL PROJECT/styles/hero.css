@@ -1,3 +1,70 @@
 main {
-    display: flex
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero > .main-section-img > .main-img > img {
+    width: 94%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.hero > .main-section-img > .img-title > p {
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.hero > .main-section-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.hero > .main-section-text > .section-text {
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+   font-weight: 100;
+}
+
+.hero > .main-section-text > .main-section-buttons > .bt-sign-up-for-free {
+    background-color: #4bce79;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.hero > .main-section-text > .main-section-buttons > .bt-learn-more {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inline-section-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
 }
