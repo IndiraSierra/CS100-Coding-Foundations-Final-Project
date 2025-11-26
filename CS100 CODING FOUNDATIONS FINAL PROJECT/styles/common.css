@@ -1,8 +1,22 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  /* not sure about font choice yet. Actual page uses:
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  */
   background: linear-gradient(145deg, #262626 0%, #0f0f0f 100%);
   color: #ffffff;
   line-height: 1.5;
 }
 
+body > button {
+  cursor: pointer;
+  border: none;
+  font-family:
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    "Lucida Sans",
+    Geneva,
+    Verdana,
+    sans-serif;
+}

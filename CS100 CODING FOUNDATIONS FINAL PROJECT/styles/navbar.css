@@ -42,7 +42,7 @@
 .header-wrapper > .nav-wrapper > .nav-center ul li a {
   text-decoration: none;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 28px;
   cursor: pointer;
   margin: 0px;
@@ -56,7 +56,7 @@
 
 .header-wrapper > .nav-wrapper > .nav-center ul li:nth-child(5) a {
     color: #8a8a8a;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 20px;
 }
 
@@ -85,6 +85,10 @@
 
 .header-wrapper > .nav-wrapper > .nav-right button {
     background-color: #36383f;
+    font-family: "lucila grande", sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
     border: none;
     color: #ffffff;
     font-size: 25px;
@@ -107,5 +111,5 @@
 .header-wrapper > .nav-wrapper > .nav-right i {
     color: #7b7e8b;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
    }
