@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px) {
+    body {
+        background: #000;
+    }
+
+    main, header, footer {
+        display: none;
+    }
+
+    .mobile-warning {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .mobile-warning img {
+        width: 100%;
+        max-width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
