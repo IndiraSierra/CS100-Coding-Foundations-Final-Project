@@ -17,17 +17,28 @@ main {
     column-gap: 40px; /* review this to check if saparates image&text too much */
 }
 
+.hero > .main-section-img > .main-img {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+}
+
 .hero > .main-section-img > .main-img > img {
-    width: 94%;
+    width: 80%;
+    align-items: end;
     height: auto;
     padding-left: 50px;
+    margin-bottom: 10px;
+    box-shadow: -25px 0px 40px -20px rgba(0, 0, 0, 0.7);
 }
 
 .hero > .main-section-img > .img-title > p {
-    padding-left: 50px;
+    padding-left: 200px;
     font-size: 34px;
     font-weight: 500;
     margin: 0;
+    display: flex;
 }
 
 .bluetext {
@@ -98,6 +109,7 @@ main {
     width: 100%;                   
     align-items: center;
     margin-top: 0px;
+    margin-bottom: 80px;
 }
 
 
