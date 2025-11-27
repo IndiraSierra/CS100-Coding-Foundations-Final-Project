@@ -1,14 +1,20 @@
+/*
 main {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     width: 100%;
+} */
+
+main {
+    width: 100%;
 }
 
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 40px; /* review this to check if saparates image&text too much */
 }
 
 .hero > .main-section-img > .main-img > img {
@@ -19,17 +25,30 @@ main {
 
 .hero > .main-section-img > .img-title > p {
     padding-left: 50px;
-    font-size: 40px;
-    font-weight: 300;
-    margin: 0px;
+    font-size: 34px;
+    font-weight: 500;
+    margin: 0;
 }
 
-.hero > .main-section-text {
+.bluetext {
+    color: #67d7f8;
+    font-weight: 600; 
+}
+  
+
+/* .hero > .main-section-text {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
+} */
+
+.hero > .main-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 50px;
 }
 
@@ -38,6 +57,10 @@ main {
     margin: 0px;
     padding: 0px;
    font-weight: 100;
+}
+
+.hero > .main-section-text > .section-text > p > strong {
+    font-weight: 800;
 }
 
 .hero > .main-section-text > .main-section-buttons > .bt-sign-up-for-free {
@@ -63,8 +86,37 @@ main {
     cursor: pointer;
 }
 
-.inline-section-buttons {
+/* .inline-section-buttons {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
+} */
+
+.inline-section-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;                   
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.inlined-buttons {
+    display: flex;
+}
+
+.inlined-buttons button {
+    background-color: #26282d;
+    color: #ffffff;
+    border: 1px solid #444;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 12px 90px;
+}
+ 
+
+.inlined-buttons button + button {
+    border-left: none; 
+
 }
